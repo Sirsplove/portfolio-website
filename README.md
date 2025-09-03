@@ -1,6 +1,34 @@
-# Getting Started with Create React App
+# Splove - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React, TypeScript, and Styled Components. Features smooth animations, dark theme, and mobile-first design.
+
+## 🚀 Features
+
+- **Modern Design**: Clean, professional portfolio layout with dark theme
+- **Responsive**: Mobile-first design that works on all devices
+- **Animations**: Smooth scroll animations powered by Framer Motion
+- **Sections**: Hero, About, Skills, Projects, Experience, Contact, and Footer
+- **Performance**: Optimized build with code splitting and lazy loading
+- **Accessibility**: Keyboard navigation and screen reader friendly
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 18, TypeScript
+- **Styling**: Styled Components
+- **Animations**: Framer Motion
+- **Icons**: React Icons
+- **Build Tool**: Create React App
+- **Deployment**: Vercel (configured)
+
+## 📱 Sections
+
+1. **Hero**: Introduction with call-to-action and social links
+2. **About**: Personal introduction with skills overview
+3. **Skills**: Categorized technical skills with proficiency levels
+4. **Projects**: Showcase of portfolio projects with live demos
+5. **Experience**: Work history and education timeline
+6. **Contact**: Contact form and information
+7. **Footer**: Social links and copyright information
 
 ## Available Scripts
 
@@ -39,8 +67,62 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## 🚀 Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Vercel (Recommended)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is configured for Vercel deployment:
+
+1. **Connect to Vercel**: The repository is already connected to Vercel
+2. **Automatic Deployments**: Every push to main branch triggers a new deployment
+3. **Configuration**: See `vercel.json` for deployment settings
+
+### Manual Deployment
+
+To deploy manually:
+
+```bash
+# Build the project
+npm run build
+
+# The build folder contains your production-ready app
+# Upload the contents of the build folder to your hosting provider
+```
+
+### Other Platforms
+
+- **GitHub Pages**: Use `npm run build` and upload to GitHub Pages
+- **Netlify**: Drag and drop the build folder or connect your repository
+- **AWS S3**: Upload build folder contents to an S3 bucket
+
+## 🔧 Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Build for production
+npm run build
+
+# Run tests
+npm test
+```
+
+## 📝 Customization
+
+1. **Content**: Update text content in each component
+2. **Styling**: Modify colors and themes in `src/styles/GlobalStyles.ts`
+3. **Projects**: Add your projects in `src/components/Projects.tsx`
+4. **Skills**: Update skills in `src/components/Skills.tsx`
+5. **Experience**: Modify work history in `src/components/Experience.tsx`
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Feel free to fork this project and customize it for your own portfolio!
